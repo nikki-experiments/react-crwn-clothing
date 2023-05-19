@@ -17,3 +17,4 @@ The following are the steps I took to plan and build this website.
 - Create a sign in component
 - Install and setup Firebase DB and config files.
 - Create firebase utils file that uses auth and either creates user or returns existing user.
+- Create sign in page.

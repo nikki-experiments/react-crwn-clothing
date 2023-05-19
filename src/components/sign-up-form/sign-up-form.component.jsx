@@ -10,13 +10,14 @@ import {
 
 import './sign-up-form.styles.scss';
 
+const defaultFormFields = {
+  displayName: '',
+  email: '',
+  password: '',
+  confirmPassword: ''
+}
+
 const SignUpForm = () => {
-  const defaultFormFields = {
-    displayName: '',
-    email: '',
-    password: '',
-    confirmPassword: ''
-  }
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { displayName, email, password, confirmPassword } = formFields;
 
@@ -48,10 +49,6 @@ const SignUpForm = () => {
         console.log('user creation encountered error', error);
       }
     }
-
-
-
-
   }
 
   const handleChange = (event) => {
@@ -62,7 +59,7 @@ const SignUpForm = () => {
 
   return (
     <div className="sign-up-container">
-      <h2>Don't have an account?</h2>
+      <h2>I do not have an account</h2>
       <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
@@ -73,7 +70,6 @@ const SignUpForm = () => {
           name="displayName"
           value={displayName}
         />
-
         <FormInput
           label='Email'
           type="email"
@@ -82,7 +78,6 @@ const SignUpForm = () => {
           name="email"
           value={email}
         />
-
         <FormInput
           label='Password'
           type="password"
@@ -91,7 +86,6 @@ const SignUpForm = () => {
           name="password"
           value={password}
         />
-
         <FormInput
           label='Confirm Password'
           type="password"

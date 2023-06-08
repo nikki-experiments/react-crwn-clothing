@@ -14,7 +14,5 @@ The following are the steps I took to plan and build this website.
 - Create navigation bar using react-router
 - Get routing to work for home and shop pages
 - Style navigation
-- Create a sign in component
-- Install and setup Firebase DB and config files.
-- Create firebase utils file that uses auth and either creates user or returns existing user.
-- Create sign in page.
+- Create sign in and sign up components
+- Setup Authentication and DB with Firebase.

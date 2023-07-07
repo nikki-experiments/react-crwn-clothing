@@ -19,6 +19,11 @@ The following are the steps I took to plan and build this website.
 
 ## Test Password Sign In
 
-- flyfisher@gmail.com
-- letsfish01
-- Fisherman Bob
+- Email: flyfisher@gmail.com
+- Password: letsfish01
+- DisplayName: Fisherman Bob
+
+## Deleting Test User from Firebase
+
+1. Go to Firestore Database an d
+2. Go to Authentication and next to account click Delete account.

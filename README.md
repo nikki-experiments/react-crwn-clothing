@@ -16,6 +16,8 @@ The following are the steps I took to plan and build this website.
 - Style navigation
 - Create sign in and sign up components
 - Setup Authentication and DB with Firebase.
+- Created User context and provider
+- Moved auth code for signin into user provider.
 
 ## Test Password Sign In
 

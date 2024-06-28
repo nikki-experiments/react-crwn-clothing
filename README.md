@@ -18,6 +18,9 @@ The following are the steps I took to plan and build this website.
 - Setup Authentication and DB with Firebase.
 - Created User context and provider
 - Moved auth code for signin into user provider.
+- Setup React contexts for the cart, categories and user.
+- Converted Sass to styled components.
+- Deployed to production site using Netlify.
 
 ## Test Password Sign In
 
